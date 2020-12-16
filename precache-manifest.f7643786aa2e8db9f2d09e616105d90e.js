@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b3db3882213945560c59266822ce3c2f",
+    "revision": "d83b90ae2c48baf69c07b393777ce441",
     "url": "/nelson-mandela-bay-hotspots/index.html"
   },
   {
