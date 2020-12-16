@@ -28,6 +28,19 @@ const CovidMap = ({ countries }) => {
   </div> `,{
       sticky: true,
       direction: "auto"});
+  
+      layer.on({
+        mouseover: (event) => {
+                      event.target.setStyle({
+                      color: "#f8f8ff"
+                        });
+                                },
+        mouseout: (event) => {
+          event.target.setStyle({
+          color: "#000000",
+                });
+                  },
+      });
 
   };
 
