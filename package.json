@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://jodyswartz.github.io/nelson-mandela-bay-hotspots",
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -15,6 +16,7 @@
     "react-dom": "^16.13.1",
     "react-leaflet": "^2.7.0",
     "react-leaflet-choropleth": "^2.0.1",
+    "react-leaflet-control": "^2.1.2",
     "react-scripts": "3.4.3"
   },
   "scripts": {
