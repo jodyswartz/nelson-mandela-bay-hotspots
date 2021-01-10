@@ -72,7 +72,7 @@ const CovidMap = ({ countries }) => {
           <p><h6> Nelson Mandela Bay Covid-19 Hotspots</h6></p>
         </font>
         </Paper>
-        </Control>  
+        </Control>   
     </Map>
   );
 };
