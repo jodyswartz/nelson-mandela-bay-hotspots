@@ -20,7 +20,7 @@ const CovidMap = ({ countries }) => {
     const confirmedText = country.properties.confirmedText;
     layer.bindTooltip( `<div>
       <h4 className="white-monospace line-height-1 normal-font-weight no-wrap our-tooltip-title-text">
-      ${name}
+      ${name.slice(18)}
       </h4>
       <h3 className="white-monospace line-height-1 no-margin normal-font-weight">
           <b>${confirmedText}</b> 
@@ -53,26 +53,19 @@ const CovidMap = ({ countries }) => {
       />
        <Control position="topright">
          <Paper style={{padding: '20px'},{backgroundColor: fade('#484848', 0.5)}}>
-           <h2><font color="#f8f8ff">Active Cases <b>1174</b> Updated: <b>07-01-2021</b></font></h2>        
+           <h2><font color="#f8f8ff">Active Cases <b>997</b> Updated: <b>10-01-2021</b></font></h2>        
          </Paper>
    </Control>
    <Control position="bottomright">
        <Paper style={{padding: '20px'},{backgroundColor: fade('#484848', 0.5)}}>
-       <font color="#f8f8ff"><h5>Active 07 January 2021</h5></font>  
+       <font color="#f8f8ff"><h5>Active 10 January 2021</h5></font>  
             <font color="#f8f8ff">
               <p><b>80</b><h6> Unknown Location</h6></p>
-              <p><b>145</b><h6> New Cases</h6></p>
-              <p><b>2337</b><h6> Passed Away</h6></p>
-              <p><b>49489</b><h6> Recovered</h6></p></font>
+              <p><b>136</b><h6> New Cases</h6></p>
+              <p><b>2354</b><h6> Passed Away</h6></p>
+              <p><b>50041</b><h6> Recovered</h6></p></font>
          </Paper> 
           </Control>
-          <Control position="bottomleft">
-       <Paper style={{padding: '10px'},{backgroundColor: fade('#484848', 0.5)}}>
-       <font color="#f8f8ff">
-          <p><h6> Nelson Mandela Bay Covid-19 Hotspots</h6></p>
-        </font>
-        </Paper>
-        </Control>
     </Map>
   );
 };

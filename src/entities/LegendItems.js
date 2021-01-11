@@ -32,7 +32,7 @@ var legendItems = [
   new LegendItem(
     "1 - 50",
     "#ffffcc",
-    (cases) => cases > 1 && cases < 50
+    (cases) => cases >= 1 && cases < 50
   ),
 
   new LegendItem("No Data", "#ffffff", (cases) => true),
