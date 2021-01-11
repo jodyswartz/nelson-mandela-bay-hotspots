@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nelson-mandela-bay-hotspots/precache-manifest.98fe8c17a608977d57e966fab1fc8ea6.js"
+  "/nelson-mandela-bay-hotspots/precache-manifest.c8729468d1c271bf34786e93004949aa.js"
 );
 
 self.addEventListener('message', (event) => {
