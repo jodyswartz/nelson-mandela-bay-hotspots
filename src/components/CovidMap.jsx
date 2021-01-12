@@ -55,17 +55,17 @@ const CovidMap = ({ countries }) => {
       />
        <Control position="topright">
          <Paper style={{padding: '20px'},{backgroundColor: fade('#484848', 0.5)}}>
-           <h2><font color="#f8f8ff">Active Cases <b>997</b> Updated: <b>10-01-2021</b></font></h2>        
+           <h2><font color="#f8f8ff">Active Cases <b>1049</b> Updated: <b>11-01-2021</b></font></h2>        
          </Paper>
    </Control>
    <Control position="bottomright">
        <Paper style={{padding: '20px'},{backgroundColor: fade('#484848', 0.5)}}>
-       <font color="#f8f8ff"><h5>Active 10 January 2021</h5></font>  
+       <font color="#f8f8ff"><h5>Active 11 January 2021</h5></font>  
             <font color="#f8f8ff">
-              <p><b>80</b><h6> Unknown Location</h6></p>
-              <p><b>136</b><h6> New Cases</h6></p>
-              <p><b>2354</b><h6> Passed Away</h6></p>
-              <p><b>50041</b><h6> Recovered</h6></p></font>
+              <p><b>77</b><h6> Unknown Location</h6></p>
+              <p><b>72</b><h6> New Cases</h6></p>
+              <p><b>2360</b><h6> Passed Away</h6></p>
+              <p><b>50054</b><h6> Recovered</h6></p></font>
          </Paper> 
           </Control>
     </Map>
