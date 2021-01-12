@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nelson-mandela-bay-hotspots/static/css/main.850fd4af.chunk.css",
-    "main.js": "/nelson-mandela-bay-hotspots/static/js/main.b8167e4e.chunk.js",
-    "main.js.map": "/nelson-mandela-bay-hotspots/static/js/main.b8167e4e.chunk.js.map",
+    "main.js": "/nelson-mandela-bay-hotspots/static/js/main.2de13b48.chunk.js",
+    "main.js.map": "/nelson-mandela-bay-hotspots/static/js/main.2de13b48.chunk.js.map",
     "runtime-main.js": "/nelson-mandela-bay-hotspots/static/js/runtime-main.fd0625ad.js",
     "runtime-main.js.map": "/nelson-mandela-bay-hotspots/static/js/runtime-main.fd0625ad.js.map",
     "static/css/2.28a6ffea.chunk.css": "/nelson-mandela-bay-hotspots/static/css/2.28a6ffea.chunk.css",
     "static/js/2.ee320b29.chunk.js": "/nelson-mandela-bay-hotspots/static/js/2.ee320b29.chunk.js",
     "static/js/2.ee320b29.chunk.js.map": "/nelson-mandela-bay-hotspots/static/js/2.ee320b29.chunk.js.map",
     "index.html": "/nelson-mandela-bay-hotspots/index.html",
-    "precache-manifest.50433d60f03be78923b49cafe8f45739.js": "/nelson-mandela-bay-hotspots/precache-manifest.50433d60f03be78923b49cafe8f45739.js",
+    "precache-manifest.c4a22234f9a1691d2b693ccac7f556d8.js": "/nelson-mandela-bay-hotspots/precache-manifest.c4a22234f9a1691d2b693ccac7f556d8.js",
     "service-worker.js": "/nelson-mandela-bay-hotspots/service-worker.js",
     "static/css/2.28a6ffea.chunk.css.map": "/nelson-mandela-bay-hotspots/static/css/2.28a6ffea.chunk.css.map",
     "static/css/main.850fd4af.chunk.css.map": "/nelson-mandela-bay-hotspots/static/css/main.850fd4af.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.28a6ffea.chunk.css",
     "static/js/2.ee320b29.chunk.js",
     "static/css/main.850fd4af.chunk.css",
-    "static/js/main.b8167e4e.chunk.js"
+    "static/js/main.2de13b48.chunk.js"
   ]
 }
