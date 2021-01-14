@@ -25,7 +25,7 @@ function App() {
             </IconButton>
           }
         >
-         Disclaimer: The COVID-19 data is collected from Nelson Mandela Bay Municipality website. I only update that data once there is an official report or statement. For any further infomation please visit https://www.nelsonmandelabay.gov.za/
+         Disclaimer: The COVID-19 data is collected from Nelson Mandela Bay Municipality website. I only update the data once there is an official report or statement. For any further infomation please visit https://www.nelsonmandelabay.gov.za/
         </Alert>
       </Collapse>
       <Covid19 />
