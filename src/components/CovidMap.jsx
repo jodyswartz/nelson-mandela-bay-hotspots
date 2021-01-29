@@ -6,7 +6,7 @@ import Control from 'react-leaflet-control';
 import Paper from '@material-ui/core/Paper';
 import { fade } from '@material-ui/core/styles/colorManipulator';
 
-const CovidMap = ({ countries }) => {
+const CovidMap = ({ wards }) => {
   const mapStyle = {
     fillColor: "white",
     weight: 1,
@@ -14,10 +14,10 @@ const CovidMap = ({ countries }) => {
     fillOpacity: 1,
   };
 
-  const onEachCountry = (country, layer) => {
-    layer.options.fillColor = country.properties.color;
-    const name = country.properties.name;
-    const confirmedText = country.properties.confirmedText;
+  const onEachWard = (ward, layer) => {
+    layer.options.fillColor = ward.properties.color;
+    const name = ward.properties.name;
+    const confirmedText = ward.properties.confirmedText;
     layer.bindTooltip( `<div>
       <h4 className="white-monospace line-height-1 normal-font-weight no-wrap our-tooltip-title-text">
       ${name.slice(18)}
@@ -50,8 +50,8 @@ const CovidMap = ({ countries }) => {
 
       <GeoJSON
         style={mapStyle}
-        data={countries}
-        onEachFeature={onEachCountry}
+        data={wards}
+        onEachFeature={onEachWard}
       />
        <Control position="topright">
          <Paper style={{padding: '20px'},{backgroundColor: fade('#484848', 0.5)}}>
