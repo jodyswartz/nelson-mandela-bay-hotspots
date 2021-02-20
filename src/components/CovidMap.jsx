@@ -55,17 +55,17 @@ const CovidMap = ({ wards }) => {
       />
        <Control position="topright">
          <Paper style={{padding: '20px'},{backgroundColor: fade('#484848', 0.5)}}>
-           <h2><font color="#f8f8ff">Covid-19 Active Cases <b>664</b> Updated: <b>19-01-2021</b></font></h2>        
+           <h2><font color="#f8f8ff">Covid-19 Active Cases <b>143</b> Updated: <b>20-02-2021</b></font></h2>        
          </Paper>
    </Control>
    <Control position="bottomright">
        <Paper style={{padding: '20px'},{backgroundColor: fade('#484848', 0.5)}}>
-       <font color="#f8f8ff"><h5>As of 19 January 2021</h5></font>  
+       <font color="#f8f8ff"><h5>As of 20 February 2021</h5></font>  
             <font color="#f8f8ff">
-              <p><b>46</b><h6> Unknown Location</h6></p>
-              <p><b>51</b><h6> New Cases</h6></p>
-              <p><b>2403</b><h6> Passed Away</h6></p>
-              <p><b>51161</b><h6> Recovered</h6></p></font>
+              <p><b>13</b><h6> Unknown Location</h6></p>
+              <p><b>22</b><h6> New Cases</h6></p>
+              <p><b>2872</b><h6> Passed Away</h6></p>
+              <p><b>52283</b><h6> Recovered</h6></p></font>
          </Paper> 
           </Control>
     </Map>
