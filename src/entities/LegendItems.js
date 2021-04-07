@@ -2,34 +2,34 @@ import LegendItem from "./LengendItem";
 
 var legendItems = [
   new LegendItem(
-    "81 +",
+    "21 +",
     "#741f1f",
-    (cases) => cases >= 81,
+    (cases) => cases >= 21,
     "white"
   ),
 
   new LegendItem(
-    "61 - 80",
+    "16 - 20",
     "#fd8d3c",
-    (cases) => cases >= 61 && cases <= 80
+    (cases) => cases >= 16 && cases <= 20
   ),
 
   new LegendItem(
-    "41 - 60",
+    "11 - 15",
     "#feb24c",
-    (cases) => cases >= 41 && cases <= 60
+    (cases) => cases >= 11 && cases <= 15
   ),
 
   new LegendItem(
-    "21 - 40",
+    "6 - 10",
     "#fed976",
-    (cases) => cases >= 21 && cases <= 40
+    (cases) => cases >= 6 && cases <= 10
   ),
 
   new LegendItem(
-    "1 - 20",
+    "1 - 5",
     "#ffffcc",
-    (cases) => cases >= 1 && cases <= 20
+    (cases) => cases >= 1 && cases <= 5
   ),
 
   new LegendItem("No Data", "#ffffff", (cases) => true),
