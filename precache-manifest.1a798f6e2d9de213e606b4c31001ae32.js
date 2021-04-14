@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8e53734dc8fc5484a70934b29d995de3",
+    "revision": "a59aaf0c8161e86ca9418b6ff27cf84a",
     "url": "/nelson-mandela-bay-hotspots/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nelson-mandela-bay-hotspots/static/css/2.7cd8e092.chunk.css"
   },
   {
-    "revision": "bed174cbca5ac3372f5a",
+    "revision": "768e7a6ebfff11d1c89e",
     "url": "/nelson-mandela-bay-hotspots/static/css/main.850fd4af.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nelson-mandela-bay-hotspots/static/js/2.ee320b29.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bed174cbca5ac3372f5a",
-    "url": "/nelson-mandela-bay-hotspots/static/js/main.cd9b519f.chunk.js"
+    "revision": "768e7a6ebfff11d1c89e",
+    "url": "/nelson-mandela-bay-hotspots/static/js/main.77293707.chunk.js"
   },
   {
     "revision": "c90f53a245fd7b26d5a7",
