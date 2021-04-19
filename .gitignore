@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#Remember to remove these files, for refactoring
+src/components/Slider.jsx
+src/entities/SliderItem.js
+src/entities/SliderItems.js
+src/tasks/LoadTotalStatsTask.js
