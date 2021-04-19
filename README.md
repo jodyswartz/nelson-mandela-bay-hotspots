@@ -1,5 +1,5 @@
 <!-- Project logo -->
-![Nelson Mandela Bay Covid-19 Hotspots](/public/logo512.png) #Nelson Mandela Bay Covid-19 Hotspots
+# Nelson Mandela Bay Covid-19 Hotspots ![Nelson Mandela Bay Covid-19 Hotspots](/public/logo512.png) 
 
 
 <!-- Table Of Contents -->
